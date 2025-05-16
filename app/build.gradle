@@ -4,6 +4,9 @@ repositories {
     mavenCentral()
     jcenter()
     maven { url 'https://jitpack.io' }
+    maven {
+        url "https://maven.scijava.org/content/repositories/releases"
+    }
 }
 
 apply plugin: 'com.android.application'
